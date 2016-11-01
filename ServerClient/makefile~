@@ -1,0 +1,8 @@
+default:
+	javac Server.java
+	javac Client.java
+clean:
+	rm *.class
+run:
+	java Driver
+
